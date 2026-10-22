@@ -52,6 +52,7 @@ p{margin:0}
 
 /* ===== Hero ===== */
 .hero{position:relative;background:linear-gradient(170deg,#F3DFD9 0%,#EBCBC3 55%,#E3BBB2 100%);color:#fff;padding-block:64px 120px;overflow:hidden;text-align:center}
+.hero::before{content:"";position:absolute;inset:0;background:url(images/hero.jpg) 22% center/cover no-repeat;opacity:.35;mix-blend-mode:multiply;pointer-events:none}
 .hero::after{content:"";position:absolute;left:-10%;right:-10%;bottom:-1px;height:90px;background:var(--salmon);border-radius:50% 50% 0 0/100% 100% 0 0}
 .hero .wrap{position:relative;z-index:1}
 .hero-en{font-family:var(--latin);font-size:clamp(30px,8vw,48px);letter-spacing:.12em;line-height:1.2;color:#fff;text-shadow:0 1px 18px rgba(168,111,103,.35)}
