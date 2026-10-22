@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>private -BALI- 認定講師講座</title>
+<meta name="description" content="岡山市北区のアイシングクッキー教室 private -BALI-。JSAマスター講師が直接お教えする認定講師講座。全6回・計12時間で資格取得、オンライン受講も可能。体験レッスン＆説明会 4,000円。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="private -BALI- JSAアイシングクッキー認定講師講座（岡山）">
+<meta property="og:description" content="趣味から、教えるひとへ。全6回・計12時間で講師の資格を。体験レッスン＆説明会 4,000円／約2時間。">
+<meta property="og:image" content="images/ogp.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Shippori+Mincho:wght@500;600;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+/* Layout: 柔らかな縦長LP。ピンクの帯と白の帯を交互に、曲線のヒーローから始まり、アイシングの「レース模様」の点線で区切る */
+:root{
+  --salmon:#C98F86;        /* くすんだサーモンピンク（メイン） */
+  --salmon-deep:#A86F67;   /* 見出し・ボタン押下 */
+  --blush:#F6E9E5;         /* 薄いピンク帯 */
+  --blush-2:#EFD9D3;       /* カード装飾の丸 */
+  --paper:#FFFCFB;         /* 白帯 */
+  --ink:#5B4643;           /* 本文 */
+  --ink-soft:#8A7370;      /* 補足 */
+  --line:#E6CFC9;
+  --serif:"Shippori Mincho","Hiragino Mincho ProN","Yu Mincho",serif;
+  --sans:"Zen Kaku Gothic New","Hiragino Sans","Yu Gothic",sans-serif;
+  --latin:"Cormorant Garamond","Times New Roman",serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.95;letter-spacing:.04em;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+section{padding-block:72px}
+.band-pink{background:var(--blush)}
+.band-salmon{background:var(--salmon);color:#fff}
+h1,h2,h3{font-family:var(--serif);font-weight:600;text-wrap:balance;margin:0;letter-spacing:.08em;line-height:1.6}
+h2{font-size:clamp(22px,5.2vw,28px);color:var(--ink)}
+.eyebrow{display:flex;align-items:center;gap:10px;font-family:var(--latin);font-style:italic;font-size:17px;color:var(--salmon);letter-spacing:.06em;margin-bottom:6px}
+.eyebrow::before{content:"";width:22px;height:1px;background:currentColor}
+.center{text-align:center}
+.center .eyebrow{justify-content:center}
+.center .eyebrow::after{content:"";width:22px;height:1px;background:currentColor}
+.lead{color:var(--ink-soft);font-size:14px;margin:10px 0 0}
+p{margin:0}
+.stack{display:grid;gap:18px}
+
+/* アイシングのレース区切り */
+.lace{height:14px;margin:28px auto;width:180px;background:radial-gradient(circle at 7px 7px,var(--salmon) 2.6px,transparent 3px) 0 0/16px 14px repeat-x;opacity:.55}
+
+/* ===== Hero ===== */
+.hero{position:relative;background:linear-gradient(170deg,#F3DFD9 0%,#EBCBC3 55%,#E3BBB2 100%);color:#fff;padding-block:64px 120px;overflow:hidden;text-align:center}
+.hero::after{content:"";position:absolute;left:-10%;right:-10%;bottom:-1px;height:90px;background:var(--salmon);border-radius:50% 50% 0 0/100% 100% 0 0}
+.hero .wrap{position:relative;z-index:1}
+.hero-en{font-family:var(--latin);font-size:clamp(30px,8vw,48px);letter-spacing:.12em;line-height:1.2;color:#fff;text-shadow:0 1px 18px rgba(168,111,103,.35)}
+.hero-sub{font-family:var(--serif);font-size:13px;letter-spacing:.2em;margin-top:6px;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.7);display:inline-block}
+.hero h1{font-size:clamp(25px,6.4vw,36px);margin-top:26px;color:#fff;text-shadow:0 1px 14px rgba(168,111,103,.4)}
+.hero-copy{margin-top:14px;font-family:var(--serif);font-size:15px;color:#fff}
+.cookies{display:flex;justify-content:center;gap:18px;margin-top:28px}
+.cookies svg{width:84px;height:84px;filter:drop-shadow(0 6px 10px rgba(168,111,103,.25))}
+.cookies svg:nth-child(2){width:104px;height:104px;margin-top:-10px}
+.hero-sign{font-family:var(--latin);font-style:italic;font-size:16px;margin-top:22px;color:#fff}
+
+.intro{background:var(--salmon);color:#fff;text-align:center;padding-block:8px 64px}
+.intro h2{color:#fff;font-size:clamp(21px,5vw,27px)}
+.badges{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:30px}
+.badge{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.55);border-radius:14px;padding:16px 6px}
+.badge b{display:block;font-family:var(--serif);font-size:clamp(24px,6vw,32px);line-height:1.2;font-variant-numeric:tabular-nums}
+.badge b small{font-size:.5em;margin-left:2px}
+.badge span{font-size:12px;letter-spacing:.06em}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:0 34px;border-radius:999px;background:var(--paper);color:var(--salmon-deep);font-family:var(--serif);font-weight:700;font-size:16px;letter-spacing:.1em;text-decoration:none;box-shadow:0 8px 20px rgba(120,70,64,.18);transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(120,70,64,.24)}
+.btn:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.btn.solid{background:var(--salmon);color:#fff}
+.btn.solid:hover{background:var(--salmon-deep)}
+.btn .arrow{font-family:var(--latin);font-size:18px}
+.cta-row{margin-top:34px;display:flex;flex-direction:column;align-items:center;gap:8px}
+.cta-note{font-size:12px;opacity:.9}
+
+/* ===== Worries ===== */
+.worries{list-style:none;padding:0;margin:30px auto 0;display:grid;gap:12px;max-width:560px}
+.worries li{background:var(--paper);border-radius:12px;padding:16px 20px 16px 48px;position:relative;font-family:var(--serif);font-size:15.5px;box-shadow:0 2px 0 var(--line)}
+.worries li::before{content:"♡";position:absolute;left:20px;top:15px;color:var(--salmon)}
+.worries-after{margin-top:26px;text-align:center;font-family:var(--serif);font-size:16px}
+
+/* ===== Story ===== */
+.story{display:grid;grid-template-columns:150px 1fr;gap:32px;align-items:start;margin-top:34px}
+.portrait{position:relative;overflow:hidden;aspect-ratio:3/4;max-width:100%;border-radius:80px 80px 16px 16px;background:linear-gradient(160deg,var(--blush-2),var(--blush));display:grid;place-items:center;color:var(--salmon);font-size:12px;text-align:center;border:1px dashed var(--salmon)}
+.portrait img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.story-body{min-width:0}
+.quote{border-left:2px solid var(--salmon);padding:4px 0 4px 18px;font-family:var(--serif);font-size:17px;color:var(--salmon-deep);margin-bottom:18px}
+.name{margin-top:20px;font-family:var(--serif)}
+.name small{display:block;color:var(--ink-soft);font-family:var(--sans);font-size:12px}
+
+/* ===== About ===== */
+.about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}
+.about-card{background:var(--paper);border-radius:20px;padding:26px 16px;text-align:center;position:relative;overflow:hidden}
+.about-card .num{font-family:var(--serif);font-size:38px;color:var(--salmon);line-height:1.1;font-variant-numeric:tabular-nums}
+.about-card .num small{font-size:15px;margin-left:2px}
+.about-card p{font-size:13px;margin-top:8px;line-height:1.7}
+.about-text{margin-top:28px}
+
+/* ===== Reasons ===== */
+.reasons{display:grid;gap:18px;margin-top:34px}
+.reason{position:relative;overflow:hidden;background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:30px 26px}
+.reason::before{content:"";position:absolute;right:-46px;top:-46px;width:150px;height:150px;border-radius:50%;background:var(--blush)}
+.reason > *{position:relative}
+.reason .no{font-family:var(--latin);color:var(--salmon);font-size:15px;letter-spacing:.14em}
+.reason .no b{font-size:30px;font-weight:500;margin-left:6px}
+.reason h3{font-size:19px;margin:6px 0 10px;color:var(--ink)}
+.reason p{font-size:14px;color:var(--ink-soft)}
+.reason .tag{display:inline-block;margin-top:12px;font-size:12px;background:var(--blush);color:var(--salmon-deep);padding:3px 12px;border-radius:999px}
+
+/* ===== Voices ===== */
+.voices{display:grid;gap:22px;margin-top:34px}
+.voice{background:var(--paper);border-radius:24px;padding:30px 26px 26px;position:relative}
+.voice::before{content:"“";position:absolute;top:-6px;left:20px;font-family:var(--latin);font-size:70px;color:var(--salmon);line-height:1}
+.voice h3{font-size:18px;color:var(--salmon-deep);margin-bottom:10px}
+.voice .who{margin-top:14px;font-size:12px;color:var(--ink-soft);text-align:right}
+
+/* ===== FAQ ===== */
+.faq{display:grid;gap:12px;margin-top:34px}
+.faq details{background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.faq summary{list-style:none;cursor:pointer;padding:18px 52px 18px 56px;position:relative;font-family:var(--serif);font-weight:600;font-size:15.5px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::before{content:"Q";position:absolute;left:20px;top:13px;font-family:var(--latin);font-size:24px;color:var(--salmon)}
+.faq summary::after{content:"+";position:absolute;right:22px;top:14px;font-size:22px;color:var(--salmon);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq summary:focus-visible{outline:2px solid var(--salmon);outline-offset:-2px}
+.faq .a{padding:0 22px 20px 56px;position:relative;font-size:14px}
+.faq .a::before{content:"A";position:absolute;left:21px;top:-6px;font-family:var(--latin);font-size:24px;color:var(--ink-soft)}
+
+/* ===== Trial ===== */
+.trial-card{background:var(--paper);color:var(--ink);border-radius:28px;padding:40px 28px;margin-top:30px;text-align:center;position:relative}
+.trial-card .ribbon{position:absolute;top:-16px;left:50%;transform:translateX(-50%);background:var(--salmon-deep);color:#fff;font-size:12px;padding:5px 18px;border-radius:999px;white-space:nowrap;letter-spacing:.1em}
+.trial-card h3{font-size:clamp(20px,5vw,24px);color:var(--salmon-deep)}
+.trial-list{list-style:none;padding:0;margin:20px auto 0;display:grid;gap:6px;max-width:320px;text-align:left}
+.trial-list li::before{content:"♡ ";color:var(--salmon)}
+.price{margin-top:24px;display:flex;justify-content:center;align-items:baseline;gap:8px;flex-wrap:wrap}
+.price .label{font-size:13px;color:var(--ink-soft)}
+.price b{font-family:var(--serif);font-size:42px;color:var(--salmon-deep);line-height:1;font-variant-numeric:tabular-nums}
+.price .unit{font-family:var(--serif);font-size:16px}
+.trial-meta{font-size:12.5px;color:var(--ink-soft);margin-top:6px}
+.trial-worry{display:grid;gap:8px;margin-top:22px;text-align:center;font-family:var(--serif);color:#fff}
+
+/* ===== Details table ===== */
+.detail{margin-top:34px;border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:130px 1fr;gap:16px;padding:18px 4px;border-bottom:1px solid var(--line)}
+.row dt{font-family:var(--serif);font-weight:600;color:var(--salmon-deep)}
+.row dd{margin:0;min-width:0}
+.row dd small{display:block;color:var(--ink-soft);font-size:12.5px;line-height:1.7;margin-top:2px}
+.yen{font-family:var(--serif);font-size:18px;font-variant-numeric:tabular-nums}
+.total{margin-top:22px;background:var(--blush);border-radius:18px;padding:20px 22px;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.total span{font-size:13px}
+.total b{font-family:var(--serif);font-size:24px;color:var(--salmon-deep);font-variant-numeric:tabular-nums}
+.total small{display:block;font-size:11.5px;color:var(--ink-soft)}
+
+/* ===== Closing ===== */
+.closing{text-align:center}
+.closing p{font-family:var(--serif);font-size:16px;line-height:2.2}
+.closing .big{font-size:clamp(20px,5vw,25px);color:var(--salmon-deep);margin-bottom:18px;line-height:1.8}
+
+/* ===== Contact ===== */
+.contact{display:grid;gap:14px;margin-top:30px}
+.ct{background:var(--paper);border-radius:18px;padding:20px 22px;display:grid;grid-template-columns:72px 1fr auto;gap:12px;align-items:center}
+.ct .k{font-family:var(--latin);font-style:italic;color:var(--salmon);font-size:18px}
+.ct .v{min-width:0;overflow-wrap:anywhere}
+.ct .v b{font-family:var(--serif);font-size:17px;display:block}
+.ct .v a{color:inherit;text-decoration:none}
+.ct .v a:hover{text-decoration:underline}
+.ct .v small{color:var(--ink-soft);font-size:12px;line-height:1.6;display:block}
+.copy{border:1px solid var(--salmon);background:transparent;color:var(--salmon-deep);border-radius:999px;padding:6px 14px;font:inherit;font-size:12px;cursor:pointer}
+.copy:focus-visible{outline:2px solid var(--salmon-deep);outline-offset:2px}
+.links{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+.links a{display:block;text-align:center;padding:14px 10px;border-radius:14px;border:1px solid var(--salmon);color:var(--salmon-deep);text-decoration:none;font-size:13.5px;background:var(--paper)}
+.links a:hover{background:var(--blush)}
+.links a.line{background:var(--salmon);color:#fff;border-color:var(--salmon)}
+.note{font-size:12px;color:var(--ink-soft);margin-top:14px;text-align:center}
+
+footer{background:var(--salmon);color:#fff;text-align:center;padding-block:40px}
+footer .areas{font-size:11.5px;line-height:1.9;opacity:.92;max-width:600px;margin:0 auto}
+footer .logo{font-family:var(--latin);font-size:26px;letter-spacing:.16em;margin-top:22px}
+footer .logo small{display:block;font-family:var(--serif);font-size:12px;letter-spacing:.14em}
+
+@media (max-width:560px){
+  section{padding-block:60px}
+  .story{grid-template-columns:1fr;gap:22px}
+  .portrait{width:160px;margin:0 auto}
+  .about-grid{grid-template-columns:1fr}
+  .about-card{display:flex;align-items:center;gap:16px;text-align:left;padding:18px 22px}
+  .about-card .num{min-width:100px}
+  .about-card p{margin:0}
+  .row{grid-template-columns:1fr;gap:2px}
+  .ct{grid-template-columns:1fr auto}
+  .ct .k{grid-column:1/-1}
+  .links{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<!-- ===== HERO ===== -->
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-en">private -BALI-</div><br>
+    <div class="hero-sub">JSA アイシングクッキー認定講師講座</div>
+    <h1>趣味から、教えるひとへ。<br>自信が持てる私になる。</h1>
+    <p class="hero-copy">道具に触れるのが初めてでも大丈夫。<br>全6回・計12時間で、講師の資格を。</p>
+    <div class="cookies" aria-hidden="true">
+      <svg viewBox="0 0 100 100"><path d="M50 88 C20 66 8 48 12 32 C16 16 36 12 50 28 C64 12 84 16 88 32 C92 48 80 66 50 88Z" fill="#FBEFEC"/><path d="M50 78 C27 61 19 48 22 36 C25 25 39 23 50 36 C61 23 75 25 78 36 C81 48 73 61 50 78Z" fill="none" stroke="#C98F86" stroke-width="2" stroke-dasharray="1 5" stroke-linecap="round"/><circle cx="50" cy="48" r="4" fill="#C98F86"/></svg>
+      <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#FBEFEC"/><circle cx="50" cy="50" r="36" fill="none" stroke="#C98F86" stroke-width="2.4" stroke-dasharray="1 6" stroke-linecap="round"/><circle cx="50" cy="50" r="26" fill="#EFD3CC"/><g fill="#fff"><circle cx="50" cy="38" r="5"/><circle cx="61" cy="46" r="5"/><circle cx="57" cy="59" r="5"/><circle cx="43" cy="59" r="5"/><circle cx="39" cy="46" r="5"/></g><circle cx="50" cy="50" r="4" fill="#C98F86"/></svg>
+      <svg viewBox="0 0 100 100"><rect x="16" y="16" width="68" height="68" rx="14" transform="rotate(45 50 50)" fill="#FBEFEC"/><rect x="26" y="26" width="48" height="48" rx="9" transform="rotate(45 50 50)" fill="none" stroke="#C98F86" stroke-width="2" stroke-dasharray="1 5" stroke-linecap="round"/><path d="M38 52 q12 -16 24 0" fill="none" stroke="#C98F86" stroke-width="2.4" stroke-linecap="round"/><circle cx="50" cy="60" r="3" fill="#C98F86"/></svg>
+    </div>
+    <p class="hero-sign">Icing Cookie Instructor Course in Okayama</p>
+  </div>
+</header>
+
+<div class="intro">
+  <div class="wrap">
+    <h2>岡山のJSAマスター講師が<br>直接お教えする認定講師講座</h2>
+    <div class="badges">
+      <div class="badge"><b>12<small>時間</small></b><span>全6回で資格取得</span></div>
+      <div class="badge"><b>61<small>種</small></b><span>本格技術を習得</span></div>
+      <div class="badge"><b>55<small>名</small></b><span>認定講師を輩出</span></div>
+    </div>
+    <div class="cta-row">
+      <a class="btn" href="#trial">まずは体験＆説明会へ <span class="arrow">→</span></a>
+      <span class="cta-note">体験レッスン 4,000円／約2時間／無理な勧誘はありません</span>
+    </div>
+  </div>
+</div>
+
+<!-- ===== WORRIES ===== -->
+<section class="band-pink">
+  <div class="wrap center">
+    <div class="eyebrow">Your wish</div>
+    <h2>心のどこかで、<br>こんなふうに思っていませんか</h2>
+    <ul class="worries">
+      <li>趣味のアイシングクッキーを、もっと極めたい</li>
+      <li>いつか、おうちで教室を開けたらいいな</li>
+      <li>一度きりの人生、自分に自信を持てる「強み」がほしい</li>
+    </ul>
+    <p class="worries-after">このページにたどり着いたあなたは、<br>もう「変わりたい」未来へ一歩を踏み出しています。</p>
+  </div>
+</section>
+
+<!-- ===== STORY ===== -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Message</div>
+    <h2>自信ゼロだった私が、<br>アイシングで変われたように。</h2>
+    <div class="story">
+      <div class="portrait">講師写真<br>（差し替え）<img src="images/instructor.jpg" alt="講師 矢崎 心晴" onerror="this.remove()"></div>
+      <div class="story-body stack">
+        <p class="quote">「私にもできる！」<br>その自信が、人生をガラリと変えてくれました。</p>
+        <p>実は、ほんの数年前までの私は「自分に自信ゼロ」の人間でした。</p>
+        <p>アイシングクッキーに出会って趣味が仕事になり、何より「私にもできる」という確かな自信を手に入れることができました。</p>
+        <p>新しい一歩には勇気がいりますし、つい先延ばしにしてしまう気持ちもよく分かります。一人では不安でも、誰かと一緒なら頑張れる。あなたの新しい扉を、全力でサポートしながら一緒に開きます。</p>
+        <p class="name">矢崎 心晴（みはる）<small>JSAアイシングクッキーマスター認定講師／private -BALI- 主宰</small></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="band-pink">
+  <div class="wrap">
+    <div class="eyebrow">About the course</div>
+    <h2>わずか12時間で、プロの技術へ。</h2>
+    <p class="lead">「資格って、何ヶ月もかかるのでは？」そう思われがちですが、この講座は短期集中です。</p>
+    <div class="about-grid">
+      <div class="about-card"><div class="num">6<small>回</small></div><p>全6回・計12時間。<br>日程はご希望に合わせて</p></div>
+      <div class="about-card"><div class="num">61<small>種類</small></div><p>本格的な技術を<br>ギュッと凝縮</p></div>
+      <div class="about-card"><div class="num">JSA</div><p>日本サロネーゼ協会の<br>認定資格</p></div>
+    </div>
+    <div class="about-text stack">
+      <p>数あるアイシングクッキー協会の中でも、JSA（日本サロネーゼ協会）は知名度が抜群に高く、卒業後のアフターフォローや講師同士のつながりがとても温かいのが特徴です。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== REASONS ===== -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Why private -BALI-</div>
+    <h2>当教室が選ばれる3つの理由</h2>
+    <p class="lead">2026年5月現在、当サロンから55名のJSAアイシングクッキー認定講師が誕生しています。</p>
+    <div class="reasons">
+      <article class="reason">
+        <div class="no">Reason<b>01</b></div>
+        <h3>岡山の「JSAマスター講師」から直接学べる</h3>
+        <p>JSA本部に認められたマスター講師ならではの、美しく仕上げるコツや最新の技術を惜しみなくお伝えします。「どうせ学ぶなら、確かな技術を持つ先生から」という方に選ばれています。</p>
+      </article>
+      <article class="reason">
+        <div class="no">Reason<b>02</b></div>
+        <h3>卒業生55名の実績と、仲間とのつながり</h3>
+        <p>卒業生は販売を始めたり、お教室やワークショップを開いたりと多方面で活躍中。同じ夢を持つ、一歩先を行く仲間とつながれるのも大きな強みです。</p>
+      </article>
+      <article class="reason">
+        <div class="no">Reason<b>03</b></div>
+        <h3>開業のノウハウまで学べる</h3>
+        <p>ノウハウ講座も開講しています。アイシングクッキーはテーブルさえあれば自宅やカフェで始められるので、初期費用やリスクが低いのが魅力です。</p>
+        <span class="tag">他のお教室の先生の「プラスαの強み」にも</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VOICES ===== -->
+<section class="band-pink">
+  <div class="wrap">
+    <div class="eyebrow">Voice</div>
+    <h2>受講生さまからの嬉しいお声</h2>
+    <div class="voices">
+      <article class="voice">
+        <h3>不器用な私でも、4日間で自信がつきました</h3>
+        <p>自己流でやっていて、いつもクッキーの表面がガタガタなのが悩みでした。心晴先生が手元をしっかり見て細かくコツを教えてくれたおかげで、見違えるほど綺麗に作れるように。「私にもできた」という体験が、今の大きな自信になっています。</p>
+        <p class="who">30代・主婦</p>
+      </article>
+      <article class="voice">
+        <h3>子育てをしながら、自宅でお仕事を始める一歩に</h3>
+        <p>「子どもにおかえりを言える働き方がしたい」と思い受講しました。資格取得後は、自宅で小さなワークショップから一歩を踏み出せました。あの時勇気を出して、本当に良かったです。</p>
+        <p class="who">40代・2児のママ</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Q&amp;A</div>
+    <h2>よくあるご質問</h2>
+    <div class="faq">
+      <details open><summary>本当に初心者ですが、ついていけますか？</summary><div class="a">もちろんです。受講生の8割が、道具に触るのも初めての方です。最大4名の少人数制（マンツーマンの場合もあり）で、一人ひとりのペースに合わせて丁寧にお教えします。</div></details>
+      <details><summary>子連れでの受講は可能ですか？</summary><div class="a">お子さま連れでのご受講も調整可能です。スケジュールや進め方も柔軟に対応しますので、まずは事前にご相談ください。</div></details>
+      <details><summary>受講料の分割払いはできますか？</summary><div class="a">申し訳ありませんが、協会の規定により分割払いはお受けできません。</div></details>
+      <details><summary>オンラインでも受講できますか？</summary><div class="a">はい、可能です。海外の方や、コロナ禍にオンラインで受講された生徒さまもたくさんいらっしゃいます。</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRIAL ===== -->
+<section class="band-salmon" id="trial">
+  <div class="wrap center">
+    <div class="eyebrow" style="color:#fff">First step</div>
+    <h2 style="color:#fff">まずはここから。<br>体験レッスン＆説明会</h2>
+    <div class="trial-worry">
+      <p>「いきなり資格講座に申し込むのは勇気がいる…」</p>
+      <p>「先生との相性や、サロンの雰囲気を確かめたい」</p>
+    </div>
+    <div class="trial-card">
+      <span class="ribbon">随時開催</span>
+      <h3>おしゃべりする感覚で、<br>お気軽にお越しください</h3>
+      <ul class="trial-list">
+        <li>基本のアイシングを体験</li>
+        <li>講座の詳しい内容をご説明</li>
+        <li>気になることは何でもご質問ください</li>
+      </ul>
+      <div class="price"><span class="label">体験レッスン料</span><b>4,000</b><span class="unit">円</span></div>
+      <p class="trial-meta">材料費・レッスン費・ティータイム込み／所要時間 約2時間<br>無理な勧誘は一切ありません</p>
+      <div class="cta-row" style="margin-top:26px">
+        <a class="btn solid" href="#contact">体験＆説明会を申し込む <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DETAILS ===== -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Course details</div>
+    <h2>講座詳細（JSA全国共通）</h2>
+    <dl class="detail">
+      <div class="row"><dt>受講料</dt><dd><span class="yen">121,708円</span><small>税込・全国一律</small></dd></div>
+      <div class="row"><dt>認定登録料</dt><dd><span class="yen">22,000円</span><small>税込・認定証、フリーレッスン用レシピ3枚付き</small></dd></div>
+      <div class="row"><dt>年会費</dt><dd><span class="yen">3,300円</span><small>税込</small></dd></div>
+      <div class="row"><dt>回数</dt><dd>全6回（計12時間）</dd></div>
+      <div class="row"><dt>日時</dt><dd>10:00〜<small>最終日は講師になるお手続きのため1時間ほど延長します。日程はご希望（曜日など）に合わせてご相談ください。</small></dd></div>
+      <div class="row"><dt>場所</dt><dd>講師自宅（岡山市北区）またはオンライン<small>岡山大学から車で約5分・駐車場3台あり。詳細はお申し込み後に個別にお知らせします。</small></dd></div>
+      <div class="row"><dt>持ち物</dt><dd>エプロン、ハンドタオル、筆記用具</dd></div>
+      <div class="row"><dt>定員</dt><dd>各回4名さままで<small>お一人おひとりに丁寧に向き合うため、少人数に限定しています。</small></dd></div>
+      <div class="row"><dt>申込締切</dt><dd>ご希望日の2週間前まで<small>キットの手配があるため</small></dd></div>
+    </dl>
+    <div class="total">
+      <span>受講料＋認定登録料</span>
+      <div style="text-align:right"><b>143,708円</b><small>税込／別途 年会費 3,300円</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CLOSING ===== -->
+<section class="band-pink closing">
+  <div class="wrap">
+    <div class="lace" aria-hidden="true"></div>
+    <p class="big">未来のあなたは、<br>「今のあなたの選択」が作ってくれます。</p>
+    <p>「やってみたい！」という素直な心の声を、<br>大切にしてあげませんか。<br>あなたの人生がもっと輝くお手伝いを、<br>ワクワクしながらお待ちしています。</p>
+    <div class="lace" aria-hidden="true"></div>
+    <div class="cta-row">
+      <a class="btn solid" href="#trial">体験＆説明会を見る <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+  <div class="wrap">
+    <div class="eyebrow">Contact</div>
+    <h2>お問い合わせ・お申し込み</h2>
+    <p class="lead">レッスンポリシーをご一読のうえ、ご予約ください。</p>
+    <div class="contact">
+      <div class="ct">
+        <span class="k">Tel</span>
+        <div class="v"><b><a id="tel" href="tel:09077755044">090-7775-5044</a></b><small>受付 10:00〜21:00。出られない場合は、確認次第折り返します。</small></div>
+        <button class="copy" type="button" data-copy="tel">コピー</button>
+      </div>
+      <div class="ct">
+        <span class="k">Mail</span>
+        <div class="v"><b><a id="mail" href="mailto:private-bali-@jf7.so-net.ne.jp?subject=%E4%BD%93%E9%A8%93%E3%83%AC%E3%83%83%E3%82%B9%E3%83%B3%EF%BC%86%E8%AA%AC%E6%98%8E%E4%BC%9A%E3%81%AE%E3%81%8A%E7%94%B3%E3%81%97%E8%BE%BC%E3%81%BF">private-bali-@jf7.so-net.ne.jp</a></b><small>24時間以内に返信がない場合は、お電話かメッセージでご連絡ください（迷惑フォルダに入る事例があります）。</small></div>
+        <button class="copy" type="button" data-copy="mail">コピー</button>
+      </div>
+    </div>
+    <div class="links">
+      <a class="line" data-link="line" target="_blank" rel="noopener">LINEで友だち登録<br><small>限定プレゼント・先行予約</small></a>
+      <a data-link="form" target="_blank" rel="noopener">申し込みフォーム</a>
+      <a data-link="cookpa" target="_blank" rel="noopener">クスパからのご予約</a>
+      <a data-link="policy" target="_blank" rel="noopener">レッスンポリシー</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="areas">岡山県内各地（岡山市・倉敷市・玉野市・津山市 ほか）、広島・兵庫・大阪・京都・山口・香川・鳥取・静岡・愛知・東京・滋賀・高知・神奈川・埼玉・福岡・三重・大分・沖縄、アメリカ、タイなどの方にご受講いただいています。</p>
+    <div class="logo">private -BALI-<small>岡山市北区 アイシングクッキー教室</small></div>
+  </div>
+</footer>
+
+<script>
+// リンク先URL。空のままのボタンは表示されません
+var LINKS={
+  line:'',   // LINE公式アカウントの友だち追加URL（https://lin.ee/...）
+  form:'',   // 申し込みフォームのURL
+  cookpa:'', // クスパの教室ページURL
+  policy:''  // レッスンポリシーの記事URL
+};
+document.querySelectorAll('[data-link]').forEach(function(a){
+  var u=LINKS[a.dataset.link];
+  if(u){a.href=u}else{a.remove()}
+});
+var links=document.querySelector('.links');
+if(links&&!links.children.length){links.remove()}
+document.querySelectorAll('.copy').forEach(function(b){
+  b.addEventListener('click',function(){
+    var el=document.getElementById(b.dataset.copy);var t=el.textContent.trim();
+    var done=function(){b.textContent='コピーしました';setTimeout(function(){b.textContent='コピー'},1600)};
+    var sel=function(){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='選択しました'};
+    try{navigator.clipboard.writeText(t).then(done,sel)}catch(e){sel()}
+  });
+});
+</script>
+</body>
+</html>
